@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "PORT=7860, /next/dist/bin/next dev",
-    "build": "PORT=7860, build",
-    "start": "PORT=7860, start",
+    "build": "PORT=7860, next build",
+    "start": "PORT=7860, next start",
     "lint": "eslint . --ext .ts,.tsx -c .eslintrc.json --fix"
   },
   "dependencies": {
